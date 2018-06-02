@@ -1,9 +1,9 @@
 from flask import render_template, redirect, request, current_app, session, \
     flash, url_for
-from flask.ext.security import LoginForm, current_user, login_required, \
+from flask_security import LoginForm, current_user, login_required, \
     login_user
-from flask.ext.social.utils import get_provider_or_404
-from flask.ext.social.views import connect_handler
+from flask_social.utils import get_provider_or_404
+from flask_social.views import connect_handler
 
 from . import app, db
 from .forms import RegisterForm

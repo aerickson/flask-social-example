@@ -1,5 +1,5 @@
 
-from flask.ext.assets import Bundle
+from flask_assets import Bundle
 
 from . import app, webassets
 

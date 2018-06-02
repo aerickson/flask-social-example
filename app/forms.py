@@ -1,6 +1,6 @@
 
 from flask import current_app
-from flask.ext.wtf import Form
+from flask_wtf import Form
 from wtforms import TextField, PasswordField, ValidationError
 from wtforms.validators import Required, Email, Length, Regexp, EqualTo
 

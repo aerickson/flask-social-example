@@ -1,5 +1,5 @@
 
-from flask.ext.security import UserMixin, RoleMixin
+from flask_security import UserMixin, RoleMixin
 
 from . import db
 
